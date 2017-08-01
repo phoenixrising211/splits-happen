@@ -20,8 +20,8 @@ public class SplitsHappen {
 		System.out.print("Enter your bowling line: ");
 		
 		String input = scan.nextLine();
-		BowlingLine scorer = new BowlingLine(input);		
-		int finalScore = scorer.score();
+		BowlingLine line = new BowlingLine(input);		
+		int finalScore = line.score();
 		System.out.println("Your bowling score is " + finalScore + "!");
 		
 		scan.close();
