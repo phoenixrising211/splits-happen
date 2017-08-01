@@ -27,4 +27,6 @@ Use the test cases from the table below to validate the scoring logic of your pr
 | 5/5/5/5/5/5/5/5/5/5/5 | (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5)                                         | 150         |
 | X7/9-X-88/-6XXX81     | (10+7+3) + (7+3+9) + 9 + (10+0+8) + 8 + (8+2+0) + 6 + (10+10+10) + (10+10+8) + (10+8+1)                                         | 167         |
 
-
+## Usage
+Run the controller at controllers/SplitsHappen.java
+This simple text controller prompts for input from stdin and prints output to stdout.
